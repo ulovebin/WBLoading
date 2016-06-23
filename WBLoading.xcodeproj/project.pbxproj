@@ -15,6 +15,7 @@
 		5767C1131D1B729100DDED97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5767C1111D1B729100DDED97 /* LaunchScreen.storyboard */; };
 		5767C11E1D1B729100DDED97 /* WBLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767C11D1D1B729100DDED97 /* WBLoadingTests.m */; };
 		5767C1291D1B729200DDED97 /* WBLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767C1281D1B729200DDED97 /* WBLoadingUITests.m */; };
+		5767C1381D1B72B700DDED97 /* WBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767C1371D1B72B700DDED97 /* WBLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5767C1241D1B729100DDED97 /* WBLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5767C1281D1B729200DDED97 /* WBLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBLoadingUITests.m; sourceTree = "<group>"; };
 		5767C12A1D1B729200DDED97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5767C1361D1B72B700DDED97 /* WBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBLoadingView.h; sourceTree = "<group>"; };
+		5767C1371D1B72B700DDED97 /* WBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		5767C1021D1B729100DDED97 /* WBLoading */ = {
 			isa = PBXGroup;
 			children = (
+				5767C1361D1B72B700DDED97 /* WBLoadingView.h */,
+				5767C1371D1B72B700DDED97 /* WBLoadingView.m */,
 				5767C1061D1B729100DDED97 /* AppDelegate.h */,
 				5767C1071D1B729100DDED97 /* AppDelegate.m */,
 				5767C1091D1B729100DDED97 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767C1381D1B72B700DDED97 /* WBLoadingView.m in Sources */,
 				5767C10B1D1B729100DDED97 /* ViewController.m in Sources */,
 				5767C1081D1B729100DDED97 /* AppDelegate.m in Sources */,
 				5767C1051D1B729100DDED97 /* main.m in Sources */,

@@ -7,21 +7,31 @@
 //
 
 #import "ViewController.h"
-
+#import "WBLoadingView.h"
 @interface ViewController ()
+{
+    WBLoadingView *_loadView;
 
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self initLoadingView];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)initLoadingView
+{
+    _loadView=[[WBLoadingView alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2-40, self.view.frame.size.height/2-50, 80, 100)];
+    _loadView.lineWidth=2;
+    _loadView.lineColor=[UIColor redColor];
+    _loadView.backgroundColor=[UIColor whiteColor];
+    
+    [self.view addSubview:_loadView];
+    
 }
 
 @end
