@@ -5,12 +5,15 @@
 
 **2、动画效果图**
 ![redLoading.gif](http://upload-images.jianshu.io/upload_images/1728983-a3f7cab8ce06d9f8.gif?imageMogr2/auto-orient/strip)
+
 **3、打开工程找到类库的文件，可以直接拖到自己工程使用**
 ￼
 ![类库文件.png](http://upload-images.jianshu.io/upload_images/1728983-189e82218c14c083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 **4、在这里可以看代码实例**
 
 ![实例.png](http://upload-images.jianshu.io/upload_images/1728983-e32b4e4d5735679a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 **5、代码**
 
 ```
