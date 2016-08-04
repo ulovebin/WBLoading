@@ -1,5 +1,4 @@
 # WBLoading
-![图片](http://upload-images.jianshu.io/upload_images/1728983-0e20897ed73cceff.jpg)
 
 **1、原文[WBLoading](http://www.jianshu.com/p/761fc1c12ace)**
 
